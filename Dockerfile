@@ -13,5 +13,6 @@ RUN curl "https://reprisesoftware.com/wp-content/uploads/2024/v16-1/x64_l1.admin
 
 # Erstelle die Verknüpfung
 RUN ln -s /root/.rlm/daselement.set /statease-rlm/daselement.set
+RUN ln -s /root/.rlm/peregrinel.set /statease-rlm/peregrinel.set
 
 CMD [ "/statease-rlm/rlm" ]
