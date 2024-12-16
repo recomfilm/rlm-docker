@@ -4,7 +4,7 @@ RUN apt-get update -yq \
  && apt-get install -yq \
     curl unzip
 
-RUN curl "https://cdnm.statease.com/support/statease-rlm-linux-x64.tar.gz" -o "rlm.tgz" \
+RUN curl "https://reprisesoftware.com/wp-content/uploads/2024/v16-1/x64_l1.admin.tar.gz" -o "rlm.tgz" \
   && tar xzf rlm.tgz --strip-components=1
 
 WORKDIR /statease-rlm
